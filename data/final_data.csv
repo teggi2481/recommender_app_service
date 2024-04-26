@@ -1,0 +1,310 @@
+University,Course,IELTS,Undergrad,work_ex
+Australian National University, Machine Learning and Computer Vision,8.0,9.13,20
+Australian National University, Computing,7.5,9.54,20
+Australian National University, Computing,7.5,8.46,19
+Australian National University, Computing,7.5,8.35,37
+Australian National University, Renewable Energy ,8.0,7.79,29
+Australian National University, Machine Learning and Computer Vision,7.5,7.53,37
+Australian National University, Machine Learning and Computer Vision,7.5,9.49,13
+Australian National University, Applied Data Analytics,7.0,8.32,28
+Australian National University, Digital Systems and Telecommunications,7.5,9.01,0
+Australian National University, Renewable Energy ,7.0,8.75,0
+Australian National University, Machine Learning and Computer Vision,7.0,8.02,2
+Australian National University, Digital Systems and Telecommunications,6.5,9.63,0
+Australian National University, Computing,7.0,7.8,1
+"Swinburne University of Technology, Melbourne", Information Technology,7.0,8.2,9
+"Swinburne University of Technology, Melbourne", Construction and Infrastructure Management,6.5,7.75,8
+"Swinburne University of Technology, Melbourne", Construction Management,6.5,7.8,0
+"Swinburne University of Technology, Melbourne", Data Science,7.0,8.27,26
+"Swinburne University of Technology, Melbourne", Networks and Telecommunications,7.5,7.15,3
+"Swinburne University of Technology, Melbourne", Information Technology,8.0,9.3,41
+"Swinburne University of Technology, Melbourne", Electrical and Electronics Engineering,6.5,7.6,2
+"Swinburne University of Technology, Melbourne", Construction Management,7.5,7.3,0
+"Swinburne University of Technology, Melbourne", Electrical and Electronics Engineering,6.5,7.9,15
+"Swinburne University of Technology, Melbourne", Information Technology,5.5,7.0,0
+"Swinburne University of Technology, Melbourne", Construction and Infrastructure Management,7.0,7.39,0
+"Swinburne University of Technology, Melbourne", Professional Engineering,8.0,6.4,3
+"Swinburne University of Technology, Melbourne", Construction Management,7.5,7.02,6
+"Swinburne University of Technology, Melbourne", Professional Engineering,6.5,6.42,0
+"Swinburne University of Technology, Melbourne", Construction and Infrastructure Management,7.0,6.95,0
+"Swinburne University of Technology, Melbourne", Networks and Telecommunications,7.0,8.53,0
+"Swinburne University of Technology, Melbourne", Information Technology,6.5,6.84,24
+"Swinburne University of Technology, Melbourne", Construction Management,7.5,7.3,0
+"Swinburne University of Technology, Melbourne", Construction Management,6.5,7.8,0
+The University of Queensland,Engineering,7.0,8.6,0
+The University of Queensland,Data Science,7.0,6.85,56
+The University of Queensland,Data Science,7.0,6.9,2
+The University of Queensland,Computer Science,7.0,7.6,6
+The University of Queensland,Computer Science,8.0,8.02,29
+The University of Queensland,Computer Science Management,7.0,8.2,0
+The University of Queensland,Data Science,7.0,7.63,30
+The University of Queensland,Computer Science Management,7.5,9.54,20
+The University of Queensland,Computer Science,8.0,8.03,28
+The University of Queensland,Data Science,7.5,8.77,19
+The University of Queensland,Computer Science,7.5,8.41,39
+The University of Queensland,Data Science,8.5,9.5,23
+The University of Queensland,Biotechnology,8.0,8.56,0
+The University of Queensland,Computer Science,7.5,8.31,14
+"Flinders University, Adelaide", Information Technology,7.0,7.1,34
+"Flinders University, Adelaide", Electrical and Electronic Engineering,6.5,7.6,2
+"La Trobe University, Melbourne", Electronics Engineering,8.0,7.34,15
+"La Trobe University, Melbourne", Electronics Engineering,7.0,7.15,2
+"La Trobe University, Melbourne", Data Science,7.5,9.09,5
+"La Trobe University, Melbourne", Data Science,8.5,7.97,5
+"La Trobe University, Melbourne", Computer Science,6.5,6.74,8
+"La Trobe University, Melbourne", Data Science,6.5,7.0,0
+"La Trobe University, Melbourne", Computer Science,7.0,7.26,0
+"La Trobe University, Melbourne"," Information and Communications Technology,",7.0,6.9,0
+"La Trobe University, Melbourne", Engineering Management,7.0,8.09,26
+"La Trobe University, Melbourne", Computer Science,7.0,7.37,2
+"La Trobe University, Melbourne"," Information and Communications Technology,",6.5,6.73,0
+"La Trobe University, Melbourne"," Information and Communications Technology,",6.0,6.42,0
+"La Trobe University, Melbourne", Data Science,6.5,7.05,0
+"La Trobe University, Melbourne", ,8.0,8.18,12
+"La Trobe University, Melbourne"," Information and Communications Technology,",7.0,6.9,0
+"La Trobe University, Melbourne"," Information and Communications Technology,",7.0,6.9,0
+"Curtin University, Perth", Information Systems and Technology,8.0,7.0,0
+"Curtin University, Perth", Minerals and Energy Economics,7.0,8.32,60
+"Curtin University, Perth", Computer Science,7.0,8.1,53
+"Curtin University, Perth", Computer Science,8.0,9.3,41
+"Curtin University, Perth", Electrical Engineering,6.5,8.68,12
+"Curtin University, Perth", Engineering Management,6.5,7.08,3
+"Curtin University, Perth", Mining Engineering,7.0,6.9,0
+"Curtin University, Perth", Electrical Engineering,6.5,8.17,0
+"Curtin University, Perth", Electrical Engineering,7.0,7.58,0
+"Curtin University, Perth", Petroleum Engineering,7.0,7.7,27
+"Curtin University, Perth", Petroleum Engineering,7.0,7.4,0
+"Curtin University, Perth", Mining Engineering,7.0,6.53,0
+"Curtin University, Perth", Industrial Engineering,8.0,7.1,1
+"Curtin University, Perth", Metallurgical Engineering,7.0,7.78,0
+"Curtin University, Perth", Industrial Engineering,6.5,8.4,6
+"Curtin University, Perth", Electrical Engineering,7.0,8.05,14
+"Curtin University, Perth", Industrial Engineering,6.5,6.84,0
+"Curtin University, Perth", Mining Engineering,7.0,6.9,0
+"Curtin University, Perth", Petroleum Engineering,7.0,7.7,27
+"Griffith University, Brisbane", Environmental Engineering,7.5,8.59,12
+"Griffith University, Brisbane", Information Systems,7.0,6.9,0
+"Griffith University, Brisbane", Mechanical Engineering,7.0,6.11,60
+"Griffith University, Brisbane", Civil Engineering,6.5,5.66,0
+"Griffith University, Brisbane", Information Systems,6.5,6.74,0
+"Griffith University, Brisbane", Electronic and Energy Engineering,7.5,6.01,33
+"Griffith University, Brisbane", Information Technology,6.0,7.02,0
+"Griffith University, Brisbane", Information Systems and Information Technology Management,7.0,8.52,0
+"Griffith University, Brisbane", Civil Engineering,6.0,6.56,12
+"Griffith University, Brisbane", Information Technology,7.0,6.7,-1
+"Griffith University, Brisbane", Electronic and Energy Engineering,7.0,5.6,0
+"University of Western Australia, Perth", Data Science,7.5,7.8,11
+"University of Western Australia, Perth", Professional Engineering,7.0,8.6,0
+"University of Western Australia, Perth", Professional Engineering,8.0,7.37,131
+"University of Western Australia, Perth", Data Science,7.0,7.63,30
+"University of Western Australia, Perth", Data Science,7.5,8.9,0
+"University of Western Australia, Perth", Professional Engineering,8.0,7.73,1
+"University of Western Australia, Perth", Environmental Science,7.0,7.65,0
+"University of Western Australia, Perth", Data Science,7.5,5.5,7
+"University of Western Australia, Perth", Data Science,7.5,8.7,23
+"University of Western Australia, Perth", Professional Engineering,7.0,7.75,19
+"University of Western Australia, Perth", Professional Engineering,7.5,7.96,29
+"University of Western Australia, Perth", Professional Engineering,7.0,6.9,0
+"University of Western Australia, Perth", Information Technology,6.5,8.33,27
+"University of Western Australia, Perth", Data Science,8.0,7.52,37
+"University of Western Australia, Perth", Data Science,6.5,8.17,0
+"University of Western Australia, Perth", Information Technology,7.5,8.17,0
+"University of Western Australia, Perth", Professional Engineering,7.0,8.6,0
+University of Wollongong, Computer Science,7.0,7.972,39
+University of Wollongong, Civil Engineering,7.0,8.66,0
+University of Wollongong, Electrical Engineering,7.0,8.6,0
+University of Wollongong, Health Informatics,8.0,6.84,0
+University of Wollongong, Mechanical Engineering,7.0,9.82,0
+University of Wollongong, Computer Science,7.5,8.35,37
+University of Wollongong, Computer Science,7.0,7.1,34
+University of Wollongong, Mining Engineering,6.5,8.19,0
+University of Wollongong, Computer Science,7.5,8.6,0
+University of Wollongong, Engineering Management,7.5,8.54,2
+University of Wollongong, Mechanical Engineering,7.5,9.29,6
+University of Wollongong, Computer Science,7.0,7.26,0
+University of Wollongong, Computer Science,7.5,8.5,0
+University of Wollongong, Information Technology Strategic Management,6.5,8.64,0
+University of Wollongong, Mechanical Engineering,7.0,7.76,12
+University of Wollongong, Engineering Management,7.5,8.54,2
+"Deakin University, Melbourne", Sport Management,7.5,5.89,50
+"Deakin University, Melbourne", Cyber Security,7.0,7.02,0
+"Deakin University, Melbourne", Business Analytics,8.0,8.18,0
+"Deakin University, Melbourne", Human Nutrition,8.0,6.84,0
+"Deakin University, Melbourne", Construction Management,7.5,8.15,3
+"Deakin University, Melbourne", MBA,7.5,7.37,48
+"Deakin University, Melbourne", Business Analytics,7.0,8.04,25
+"Deakin University, Melbourne", Information Technology,8.0,7.57,1
+"Deakin University, Melbourne", Business Analytics,7.0,7.3,31
+"Deakin University, Melbourne", Data Science,6.5,6.99,2
+"Deakin University, Melbourne", Data Science,7.5,6.74,16
+"Deakin University, Melbourne", Data Science,7.0,7.3,1
+"Deakin University, Melbourne", Construction Management,7.0,7.83,5
+"Deakin University, Melbourne", Data Science,7.5,9.09,5
+"Deakin University, Melbourne", Business Analytics,7.5,7.68,51
+"Deakin University, Melbourne", Mechanical Engineering,7.0,7.65,0
+"Deakin University, Melbourne", Data Science,6.5,6.99,2
+"Macquarie University, Sydney", Engineering Management,7.0,7.5,0
+"Macquarie University, Sydney", Engineering Management,7.0,7.75,19
+"Macquarie University, Sydney", Data Science,7.5,8.5,0
+"Macquarie University, Sydney", Data Science,7.5,6.739,6
+"Macquarie University, Sydney", Information Systems Management,7.0,6.5,18
+"Macquarie University, Sydney", Data Science,7.0,7.48,28
+"Macquarie University, Sydney", Information Systems Management,5.5,7.0,0
+"Macquarie University, Sydney", Information Technology,6.5,8.33,27
+"Macquarie University, Sydney", Data Science,7.5,6.01,0
+"Macquarie University, Sydney", Data Science,8.0,9.177999999999999,19
+"Macquarie University, Sydney", Data Science,7.0,7.09,24
+"Macquarie University, Sydney", Information Technology,7.0,6.9,0
+"Macquarie University, Sydney", Data Science,6.5,7.0,1
+"Macquarie University, Sydney", Data Science,7.0,7.16,21
+"Macquarie University, Sydney", Information Technology,7.0,7.81,47
+"Macquarie University, Sydney", Data Science,7.5,8.03,12
+University of Adelaide, Electronics Engineering,7.0,8.6,0
+University of Adelaide, Electrical Engineering,8.0,7.37,131
+University of Adelaide, Chemical Engineering,7.0,8.6,0
+University of Adelaide, Civil & Environmental Engineering,7.0,8.66,0
+University of Adelaide, Civil & Environmental Engineering,6.5,8.75,3
+University of Adelaide, Construction Management,7.0,8.65,0
+University of Adelaide, Construction Management,7.5,8.15,3
+University of Adelaide, Data Science,7.0,6.9,2
+University of Adelaide, Computer Science,7.0,7.6,6
+University of Adelaide, Computer Science,8.0,8.02,29
+University of Adelaide, Computer Science,7.0,8.2,0
+University of Adelaide, Data Science,8.0,7.75,9
+University of Adelaide, Civil and Structural Engineering,7.0,9.01,11
+University of Adelaide, Data Science,7.5,8.5,0
+University of Adelaide, Software Engineering,7.5,7.58,0
+University of Adelaide, Civil and Structural Engineering,7.5,8.84,10
+University of Adelaide, Computer Science,7.5,8.41,39
+"Monash University, Melbourne", Information Technology,8.0,9.05,24
+"Monash University, Melbourne", Data Science,8.0,8.94,0
+"Monash University, Melbourne", Data Science,6.0,7.3,0
+"Monash University, Melbourne", Chemical Engineering,8.0,8.44,2
+"Monash University, Melbourne", Data Science,7.5,6.19,36
+"Monash University, Melbourne", Mechanical Engineering,7.0,9.82,0
+"Monash University, Melbourne", Biotechnology,7.5,8.01,14
+"Monash University, Melbourne", Mechanical Engineering,8.5,7.44,8
+"Monash University, Melbourne", Information Technology,8.0,9.0,17
+"Monash University, Melbourne", Information Technology,7.5,9.54,20
+"Monash University, Melbourne", Civil Engineering,7.0,8.24,4
+"Monash University, Melbourne", Energy and Sustainability,8.0,7.58,18
+"University of New South Wales, Sydney", Information Technology,7.5,7.8,11
+"University of New South Wales, Sydney", Energy Systems,7.0,7.4,10
+"University of New South Wales, Sydney", Civil Engineering,7.0,8.66,0
+"University of New South Wales, Sydney", Engineering,8.0,7.34,15
+"University of New South Wales, Sydney", Chemical Engineering and Process Engineering,8.0,9.0,1
+"University of New South Wales, Sydney", Transportation Engineering,7.0,8.24,4
+"University of New South Wales, Sydney", Information Technology,7.5,9.54,20
+"University of New South Wales, Sydney", Energy Systems,7.0,7.21,10
+"University of New South Wales, Sydney", Information Technology,7.5,8.21,39
+"University of New South Wales, Sydney", Renewable Energy Engineering,6.5,7.4,2
+"University of New South Wales, Sydney", Information Technology,7.5,7.53,37
+"University of New South Wales, Sydney", Information Technology,7.5,8.77,19
+"University of New South Wales, Sydney", Renewable Energy Engineering,8.0,7.79,29
+"University of New South Wales, Sydney", Information Technology,8.5,8.18,18
+"University of South Australia, Adelaide", Electrical Power Engineering,8.0,7.37,131
+"University of South Australia, Adelaide", Engineering Management,7.0,8.1,0
+"University of South Australia, Adelaide", Engineering Management,7.5,8.54,2
+"University of South Australia, Adelaide", Data Science,7.0,7.02,0
+"University of South Australia, Adelaide", Electrical Power Engineering,6.5,8.68,12
+"University of South Australia, Adelaide", Data Science,7.5,8.0,7
+"University of South Australia, Adelaide", Data Science,7.0,7.16,21
+"University of South Australia, Adelaide", Engineering Management,6.5,8.05,12
+"University of South Australia, Adelaide", Data Science,7.5,6.8,-1
+"University of South Australia, Adelaide", Data Science,7.0,7.67,8
+"University of South Australia, Adelaide", Telecommunications Engineering,7.5,6.05,6
+"University of South Australia, Adelaide", Data Science,6.5,7.05,0
+"University of South Australia, Adelaide", Engineering Management,6.0,7.42,18
+"University of South Australia, Adelaide", Data Science,6.5,8.57,30
+"University of South Australia, Adelaide", Engineering Management,7.5,7.0,0
+"University of South Australia, Adelaide", Telecommunications Engineering,7.0,7.1,0
+"University of South Australia, Adelaide", Telecommunications Engineering,7.0,7.689,3
+"University of South Australia, Adelaide", Data Science,8.0,8.9,2
+University of Technology Sydney, Engineering Management,8.0,6.6,1
+University of Technology Sydney, Mechanical Engineering,6.5,7.14,5
+University of Technology Sydney, Data Science and Innovation,7.0,8.96,0
+University of Technology Sydney, Engineering Management,6.5,7.75,8
+University of Technology Sydney, Data Science and Innovation,8.5,7.97,5
+University of Technology Sydney, Data Science and Innovation,6.5,6.8,12
+University of Technology Sydney, Information Systems,6.5,6.5,0
+University of Technology Sydney, Engineering Management,7.5,8.26,24
+University of Technology Sydney, Analytics,7.5,7.43,17
+University of Technology Sydney, Engineering Management,7.0,8.09,26
+University of Technology Sydney, Engineering,7.0,9.12,2
+University of Technology Sydney, Information Systems,7.0,7.81,47
+University of Technology Sydney, Engineering Management,7.0,7.47,0
+University of Technology Sydney, Information Systems,6.5,6.52,38
+University of Technology Sydney, Engineering,6.5,7.3,0
+University of Technology Sydney, Engineering Management,6.5,6.0,2
+University of Technology Sydney, Engineering Management,6.5,6.0,2
+University of Technology Sydney, Information Systems,7.0,7.81,47
+Western Sydney University, Engineering,7.5,7.15,3
+Western Sydney University, Engineering,7.0,6.7,0
+Western Sydney University, Engineering,7.0,6.0,0
+Western Sydney University, Data Science,7.5,7.28,2
+Western Sydney University, Information and Communications Technology,7.0,6.33,30
+Western Sydney University, Data Science,6.5,7.84,0
+Western Sydney University, Data Science,7.5,6.9,0
+Western Sydney University, Engineering,6.5,6.64,14
+Western Sydney University, Data Science,8.0,8.11,11
+Western Sydney University, Data Science,6.5,7.51,0
+Western Sydney University, Engineering,7.5,6.33,0
+Western Sydney University, Data Science,7.0,6.26,0
+Western Sydney University, Data Science,6.5,6.52,5
+University of Melbourne, Information Technology,8.0,7.58,0
+University of Melbourne, Engineering Management,8.5,8.73,21
+University of Melbourne, Computer Science,8.0,9.13,20
+University of Melbourne, Information Technology,8.0,8.2,3
+University of Melbourne, Biotechnology,7.5,8.081,6
+University of Melbourne, Engineering - Chemical with Business,8.0,9.0,1
+University of Melbourne, Mechanical Engineering,8.5,8.91,3
+University of Melbourne, Engineering Management,8.0,8.76,3
+University of Melbourne, Structural Engineering,7.5,9.32,5
+University of Melbourne, Construction Management,7.5,7.37,0
+University of Melbourne, Information Systems,7.5,9.07,6
+University of Melbourne, Data Science,8.5,8.36,28
+University of Melbourne, Mechanical Engineering,7.0,7.16,44
+University of Melbourne, Engineering - Chemical with Business,8.0,9.0,1
+Royal Melbourne Institute of Technology, Robotics and Mechatronics Engineering,6.5,7.14,5
+Royal Melbourne Institute of Technology, Analytics,8.0,8.18,0
+Royal Melbourne Institute of Technology, Data Science,8.0,8.94,0
+Royal Melbourne Institute of Technology, Data Science,7.5,7.0,8
+Royal Melbourne Institute of Technology, Engineering Management,7.0,8.34,0
+Royal Melbourne Institute of Technology, Cyber Security,8.0,7.72,32
+Royal Melbourne Institute of Technology, Engineering Management,7.0,7.5,0
+Royal Melbourne Institute of Technology, Information Technology,8.0,7.26,12
+Royal Melbourne Institute of Technology, Information Technology,6.5,6.99,5
+Royal Melbourne Institute of Technology, Data Science,7.0,8.44,27
+Royal Melbourne Institute of Technology, Data Science,7.0,9.2,0
+Royal Melbourne Institute of Technology, Mechanical Engineering,7.0,7.7,6
+Royal Melbourne Institute of Technology, Telecommunication and Network Engineering,8.0,7.34,15
+Royal Melbourne Institute of Technology, Data Science,7.0,7.63,30
+Royal Melbourne Institute of Technology, Engineering Management,7.0,8.04,25
+Royal Melbourne Institute of Technology, Sustainable Energy,7.5,7.1,29
+Royal Melbourne Institute of Technology, Data Science,7.0,6.999,17
+University of Sydney, Information Technology Management,8.0,9.05,24
+University of Sydney, Information Technology Management,8.0,9.13,20
+University of Sydney, Chemical and Biomolecular Engineering,7.0,8.6,0
+University of Sydney, Information Technology,7.0,7.972,39
+University of Sydney, Information Technology,8.0,8.2,3
+University of Sydney, Information Technology Management,7.5,9.54,20
+University of Sydney, Civil Engineering,7.5,9.32,5
+University of Sydney, Information Technology Management,7.0,7.92,0
+University of Sydney, Information Technology,7.0,8.4,4
+University of Sydney, Information Technology Management,7.5,8.33,40
+University of Sydney, Structural Engineering,7.5,8.84,10
+University of Sydney, Structural Engineering,7.5,9.32,5
+University of Sydney, Mechanical Engineering,8.0,8.93,4
+University of Sydney, Information Technology,7.0,9.2,23
+University of Sydney, Data Science,6.5,8.64,0
+"Queensland University of Technology, Brisbane", Engineering Management,7.0,8.04,25
+"Queensland University of Technology, Brisbane", Information Technology,6.5,6.0,11
+"Queensland University of Technology, Brisbane", Engineering Management,7.0,5.97,24
+"Queensland University of Technology, Brisbane", Engineering,7.0,6.7,0
+"Queensland University of Technology, Brisbane", Engineering Management,7.5,7.6,0
+"Queensland University of Technology, Brisbane", Engineering,6.5,8.84,5
+"Queensland University of Technology, Brisbane", Engineering,7.0,7.16,36
+"Queensland University of Technology, Brisbane", Engineering Management,6.5,8.05,12
+"Queensland University of Technology, Brisbane", Information Technology,7.0,7.34,30
+"Queensland University of Technology, Brisbane", Information Technology,7.5,8.64,2
+"Queensland University of Technology, Brisbane", Information Technology,7.0,8.0,27
