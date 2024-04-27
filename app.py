@@ -65,23 +65,23 @@ def results():
 
 def about_page():
     st.write("""<h1>Recommendation System</h1>""", unsafe_allow_html=True)
-    
-    st.write("""
-        <p>Vartur Lake, located in Bangalore, India, is a significant water body that plays a crucial role in the local ecosystem and urban landscape.</p> 
-    """, unsafe_allow_html=True)
-    
-
+    st.write(f"""<p>This project takes the log files of user as initial input and extracts their study patterns based on their online activity. The recommendation 
+    generator takes those features as input, tries to find similar users based comparing the study patterns and recommends courses they completed.
+    </p>""", unsafe_allow_html=True)
+    st.write("""#### Developed by Pralhad P. Teggi""", unsafe_allow_html=True)
+    st.write("""#### DStudent ID - 224231596""", unsafe_allow_html=True)
+    st.write("""#### Email - pralhad2481@gmail.com""", unsafe_allow_html=True)
 
 with st.sidebar:
     selected = option_menu(
         menu_title=None,
-        options=["Home"],
+        options=["Home","About"],
         icons=["house"],
         styles=css_style
     )
 
 if selected == "Home":
     home_page()
-if selected == "Results":
-    results()
+if selected == "About":
+    about_page()
     
