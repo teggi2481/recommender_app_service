@@ -65,12 +65,13 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v1
         with:
+          azcliversion: "latest"
           inlineScript: |
-          $sp_appid = (Get-AzADServicePrincipal -DisplayName web-recommender-app-service).ApplicationId.Guid
-          $sp_secret = (Get-AzKeyVaultSecret -VaultName joykeyvault1 -Name web-recommender-app-service).SecretValueText
-          $tenant_Id = "d02378ec-1688-46d5-8540-1c28b5f470f6"
-          $subscription_Id = "42ad7b63-bcca-44e5-95de-84620abdcc6c"
-          az login --service-principal --username $sp_appid --password $sp_secret --tenant $tenant_Id --subscription $subscription_Id
+            $sp_appid = (Get-AzADServicePrincipal -DisplayName web-recommender-app-service).ApplicationId.Guid
+            $sp_secret = (Get-AzKeyVaultSecret -VaultName joykeyvault1 -Name web-recommender-app-service).SecretValueText
+            $tenant_Id = "d02378ec-1688-46d5-8540-1c28b5f470f6"
+            $subscription_Id = "42ad7b63-bcca-44e5-95de-84620abdcc6c"
+            az login --service-principal --username $sp_appid --password $sp_secret --tenant $tenant_Id --subscription $subscription_Id
 
       - name: Azure CLI script
         uses: azure/cli@v2
