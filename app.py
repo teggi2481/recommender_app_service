@@ -46,12 +46,12 @@ def home_page():
 
     if predict_button:
             #Getting the userID from the user Index
-	users = data['userID'].unique()
-	userID = int(users[input_userid])
+	    users = data['userID'].unique()
+	    userID = int(users[input_userid])
 
-	#Running the model, generating recommendations and passing the list to the HTML page
-	model = recommendationGenerator(userID, n)
-	recomm = model.generate_recommendations(features,data)
+	    #Running the model, generating recommendations and passing the list to the HTML page
+	    model = recommendationGenerator(userID, n)
+	    recomm = model.generate_recommendations(features,data)
                     
 def results():
     st.write(f"""# Recommendation System Results""", unsafe_allow_html=True)
