@@ -38,19 +38,20 @@ def home_page():
     st.write(f"""# Recommendation System""", unsafe_allow_html=True)
     
     
-    st.number_input(label="Insert an index between 0 to {{max}} to choose a USER ID", min_value=0, max_value=100, step=1, key="test_slider1")
-    st.number_input(label="Number of Recommendations", min_value=0, max_value=100, step=1, key="test_slider2")
+    input_userid = st.number_input(label="Insert an index between 0 to {{max}} to choose a USER ID", min_value=0, max_value=100, step=1, key="test_slider1")
+    n = st.number_input(label="Number of Recommendations", min_value=0, max_value=100, step=1, key="test_slider2")
     
 
     predict_button = st.button('Recommend')
 
     if predict_button:
-        for _ in stqdm(range(50)):
-            sleep(0.015)
-        if result[0] == 1.0:
-            st.error("This Water Quality is Non-Potable")
-        else:
-            st.success('This Water Quality is Potable')
+            #Getting the userID from the user Index
+	users = data['userID'].unique()
+	userID = int(users[input_userid])
+
+	#Running the model, generating recommendations and passing the list to the HTML page
+	model = recommendationGenerator(userID, n)
+	recomm = model.generate_recommendations(features,data)
                     
 def results():
     st.write(f"""# Recommendation System Results""", unsafe_allow_html=True)
