@@ -52,13 +52,12 @@ def home_page():
 	    #Running the model, generating recommendations and passing the list to the HTML page
 	    model = recommendationGenerator(userID, n)
 	    recomm = model.generate_recommendations(features,data)
-
-    #st.write(recomm)
+    st.write(f"""#### Recommendation System Results""", unsafe_allow_html=True)
+    st.write(recomm)
 	    
 def results():
     st.write(f"""# Recommendation System Results""", unsafe_allow_html=True)
     
-    st.write(recomm)
 
 def about_page():
     st.write("""<h1>Recommendation System</h1>""", unsafe_allow_html=True)
@@ -120,8 +119,8 @@ def model_section():
 with st.sidebar:
     selected = option_menu(
         menu_title=None,
-        options=["Home", "Results"],
-        #icons=["house", "bar_chart", "droplet", "info-circle", "people"],
+        options=["Home"],
+        icons=["house"],
         styles=css_style
     )
 
