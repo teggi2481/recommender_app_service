@@ -103,7 +103,6 @@ def model_section():
 
 
 with st.sidebar:
-    st.image(img_rwanda)
     selected = option_menu(
         menu_title=None,
         options=["Home", "Dashboard", "Results"],
