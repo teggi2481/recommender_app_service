@@ -127,7 +127,8 @@ with st.sidebar:
 
 if selected == "Home":
     home_page()
-    
+if selected == "Results":
+    results()
 if selected == "Results":
     results()
     
