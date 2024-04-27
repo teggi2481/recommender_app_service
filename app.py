@@ -104,18 +104,10 @@ def home_page():
 
 
 def about_page():
-    st.write("""<h1>Vartur Lake Bangalore</h1>""", unsafe_allow_html=True)
+    st.write("""<h1>Recommendation System</h1>""", unsafe_allow_html=True)
     st.image(img_vartur_2)
     st.write("""
         <p>Vartur Lake, located in Bangalore, India, is a significant water body that plays a crucial role in the local ecosystem and urban landscape.</p> 
-	<p>Here are some key points about Vartur Lake</p>
-	<p>Vartur Lake is situated in the eastern part of Bangalore, within the Varthur locality. It lies in close proximity to Whitefield, one of Bangalore's major IT hubs, and is surrounded by residential and commercial developments.</p>
-	<p>Vartur Lake covers a considerable area, providing a serene and picturesque setting in the midst of urbanization. The lake's size and features may vary depending on factors such as rainfall, season, and water management practices.</p>
-	<p>Vartur Lake serves as an essential habitat for various aquatic plants, birds, and other wildlife species. It supports biodiversity and contributes to the ecological balance of the region, providing nesting grounds for migratory birds and supporting local flora and fauna.</p>
-	<p>Challenges and Concerns: Like many urban lakes in Bangalore, Vartur Lake faces challenges such as encroachment, pollution, sewage inflow, and declining water quality. Unregulated urbanization, industrial activities, and inadequate waste management contribute to environmental degradation and threaten the lake's health.</p>
-	<p>Conservation Efforts: Various governmental and non-governmental organizations, along with local communities, have initiated efforts to conserve and rejuvenate Vartur Lake. These efforts include lake cleaning drives, restoration projects, and awareness campaigns aimed at promoting sustainable practices and community participation in lake conservation.</p>
-	<p>Urban Development Impact: The rapid urban development and population growth in the surrounding areas have put pressure on Vartur Lake's ecosystem. Encroachments, illegal construction, and untreated sewage discharge from nearby settlements pose significant challenges to the lake's long-term sustainability and health.</p>
-	<p>Importance for Urban Planning: Vartur Lake serves as a case study for urban planners, environmentalists, and policymakers grappling with issues of water management, urban development, and ecological conservation in rapidly growing cities like Bangalore. Its conservation and sustainable management are integral to ensuring a livable and resilient urban environment for future generations.</p><br>
     """, unsafe_allow_html=True)
     st.image(img_vartur_1)
 
@@ -172,7 +164,7 @@ with st.sidebar:
     st.image(img_rwanda)
     selected = option_menu(
         menu_title=None,
-        options=["Home", "Dashboard", "Statistical Analysis", "Correlation Analysis","Outlier Analysis", "Time Series Analysis","Forecasting","Check Water Quality", "About", "Contributors"],
+        options=["Home", "Dashboard", "Results"],
         #icons=["house", "bar_chart", "droplet", "info-circle", "people"],
         styles=css_style
     )
@@ -183,26 +175,6 @@ if selected == "Home":
 if selected == "Dashboard":
     dashboard()
 
-if selected == "Forecasting":
-    time_series_forecasting()
+if selected == "Results":
+    results()
     
-if selected == "Time Series Analysis":
-    time_Series_Analysis()
-	
-if selected == "Statistical Analysis":
-    statistical_Analysis()
-    
-if selected == "Correlation Analysis":
-    correlation_Analysis()
-    
-if selected == "Outlier Analysis":
-    outlier_Analysis()
-
-elif selected == "Check Water Quality":
-    model_section()
-
-elif selected == "About":
-    about_page()
-
-elif selected == "Contributors":
-    contributors_page()
