@@ -4,7 +4,7 @@ from configs import PROJECT_PATH
 sys.path.append(PROJECT_PATH)
 #Importing required libraries
 import pandas as pd
-from Input_Preprocessing import utils
+import utils
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
