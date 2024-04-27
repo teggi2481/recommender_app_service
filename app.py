@@ -13,6 +13,7 @@ from stqdm import stqdm
 from streamlit_option_menu import option_menu
 import matplotlib.patches as mpatches
 from sklearn.metrics import confusion_matrix
+from generator import recommendationGenerator
 
 st.set_page_config(page_title="Recommendation System", page_icon="🇷🇼", initial_sidebar_state="expanded")
 
@@ -29,17 +30,41 @@ css_style = {
     "nav-link-selected": {"background-color": "#FF4C1B"},
 }
 
+features,data = recommendationGenerator.load_data(recommendationGenerator, datapath = './data/features_sample.csv')
+users = data['userID'].unique()
 
 def home_page():
     st.write(f"""# Recommendation System""", unsafe_allow_html=True)
     
-    st.write(f""" """, unsafe_allow_html=True)
-    
-def dashboard():
-    st.write(f"""# Recommendation System""", unsafe_allow_html=True)
-    
-    st.write(f""" """, unsafe_allow_html=True)
-    
+    st.write(f"""
+    <form method="post" action="/result">
+      <fieldset>
+        <legend>Text input</legend>
+        <p>
+          <label >Insert an index between 0 to {{max}} to choose a USER ID</label>
+          <input type = "number"
+                 name = "index"
+                 value = "Integer here"
+                 min="0"
+                 max="39000"
+                 required/ >
+        </p>
+        <p>
+          <label for = "N">Number of Recommendations</label>
+          <input type = "number"
+                  name = "N"
+                  value = "Integer here"
+                  min = "1"
+                  max = "100"
+                  required/ >
+        </p>
+        <p>
+        <input type="submit" />
+        </p>
+      </fieldset>
+    </form>
+    """, unsafe_allow_html=True)
+     
 def results():
     st.write(f"""# Recommendation System Results""", unsafe_allow_html=True)
     
@@ -105,7 +130,7 @@ def model_section():
 with st.sidebar:
     selected = option_menu(
         menu_title=None,
-        options=["Home", "Dashboard", "Results"],
+        options=["Home", "Results"],
         #icons=["house", "bar_chart", "droplet", "info-circle", "people"],
         styles=css_style
     )
@@ -113,9 +138,6 @@ with st.sidebar:
 if selected == "Home":
     home_page()
     
-if selected == "Dashboard":
-    dashboard()
-
 if selected == "Results":
     results()
     
