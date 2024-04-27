@@ -33,7 +33,6 @@ css_style = {
 features,data = recommendationGenerator.load_data(recommendationGenerator, datapath = './data/features_sample.csv')
 users = data['userID'].unique()
 max = users.shape[0] -1
-global recomm
 recomm = None
 def home_page():
     st.write(f"""# Recommendation System""", unsafe_allow_html=True)
@@ -53,9 +52,9 @@ def home_page():
 	    #Running the model, generating recommendations and passing the list to the HTML page
 	    model = recommendationGenerator(userID, n)
 	    recomm = model.generate_recommendations(features,data)
-    if recomm != None :
-    	st.write(f"""#### Recommendation System Results""", unsafe_allow_html=True)
-    	st.write(recomm)
+    	    if recomm != None :
+    		st.write(f"""#### Recommendation System Results""", unsafe_allow_html=True)
+    		st.write(recomm)
 	    
 def results():
     st.write(f"""# Recommendation System Results""", unsafe_allow_html=True)
