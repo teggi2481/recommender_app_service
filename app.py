@@ -52,7 +52,8 @@ def home_page():
 	    #Running the model, generating recommendations and passing the list to the HTML page
 	    model = recommendationGenerator(userID, n)
 	    recomm = model.generate_recommendations(features,data)
-                    
+            st.markdown(recomm)
+	    
 def results():
     st.write(f"""# Recommendation System Results""", unsafe_allow_html=True)
     
