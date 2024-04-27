@@ -38,8 +38,8 @@ def home_page():
     st.write(f"""# Recommendation System""", unsafe_allow_html=True)
     
     
-    st.number_input(label="Insert an index between 0 to {{max}} to choose a USER ID", min_value=0, max_value=100, step=1, format="%f",key="test_slider1")
-    st.number_input(label="Number of Recommendations", min_value=0, max_value=100, step=1, format="%f",key="test_slider2")
+    st.number_input(label="Insert an index between 0 to {{max}} to choose a USER ID", min_value=0, max_value=100, step=1, key="test_slider1")
+    st.number_input(label="Number of Recommendations", min_value=0, max_value=100, step=1, key="test_slider2")
     
 
     predict_button = st.button('Recommend')
