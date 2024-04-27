@@ -43,7 +43,7 @@ def home_page():
     """, unsafe_allow_html=True)
      predict_button = st.button('Recommend')
 
-     if predict_button:
+    if predict_button:
         for _ in stqdm(range(50)):
             sleep(0.015)
         if result[0] == 1.0:
