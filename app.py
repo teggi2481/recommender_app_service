@@ -33,28 +33,25 @@ css_style = {
 def home_page():
     st.write(f"""# Recommendation System""", unsafe_allow_html=True)
     
-    st.write(f""" 
-    """, unsafe_allow_html=True)
+    st.write(f""" """, unsafe_allow_html=True)
     
 def dashboard():
     st.write(f"""# Recommendation System""", unsafe_allow_html=True)
     
-    st.write(f""" 
-    """, unsafe_allow_html=True)
+    st.write(f""" """, unsafe_allow_html=True)
     
 def results():
     st.write(f"""# Recommendation System Results""", unsafe_allow_html=True)
     
-    st.write(f""" 
-    """, unsafe_allow_html=True)
+    st.write(f""" """, unsafe_allow_html=True)
 
 def about_page():
     st.write("""<h1>Recommendation System</h1>""", unsafe_allow_html=True)
-    st.image(img_vartur_2)
+    
     st.write("""
         <p>Vartur Lake, located in Bangalore, India, is a significant water body that plays a crucial role in the local ecosystem and urban landscape.</p> 
     """, unsafe_allow_html=True)
-    st.image(img_vartur_1)
+    
 
 
 def model_section():
