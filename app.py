@@ -38,34 +38,19 @@ def home_page():
     st.write(f"""# Recommendation System""", unsafe_allow_html=True)
     
     st.write(f"""
-    <form method="post" action="/result">
-      <fieldset>
-        <legend>Text input</legend>
-        <p>
-          <label >Insert an index between 0 to {{max}} to choose a USER ID</label>
-          <input type = "number"
-                 name = "index"
-                 value = "Integer here"
-                 min="0"
-                 max="39000"
-                 required/ >
-        </p>
-        <p>
-          <label for = "N">Number of Recommendations</label>
-          <input type = "number"
-                  name = "N"
-                  value = "Integer here"
-                  min = "1"
-                  max = "100"
-                  required/ >
-        </p>
-        <p>
-        <input type="submit" />
-        </p>
-      </fieldset>
-    </form>
+    st.number_input(label="Insert an index between 0 to {{max}} to choose a USER ID", min_value=0, max_value=100, step=1, format="%f",key="test_slider1")
+    st.number_input(label="Number of Recommendations", min_value=0, max_value=100, step=1, format="%f",key="test_slider2")
     """, unsafe_allow_html=True)
-     
+     predict_button = st.button('Recommend')
+
+     if predict_button:
+        for _ in stqdm(range(50)):
+            sleep(0.015)
+        if result[0] == 1.0:
+            st.error("This Water Quality is Non-Potable")
+        else:
+            st.success('This Water Quality is Potable')
+                    
 def results():
     st.write(f"""# Recommendation System Results""", unsafe_allow_html=True)
     
