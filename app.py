@@ -14,7 +14,7 @@ from streamlit_option_menu import option_menu
 import matplotlib.patches as mpatches
 from sklearn.metrics import confusion_matrix
 
-st.set_page_config(page_title="Water Quality Dashboard", page_icon="🇷🇼", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Recommendation System", page_icon="🇷🇼", initial_sidebar_state="expanded")
 
 hide_streamlit_style = """
             <style>
@@ -31,77 +31,22 @@ css_style = {
 
 
 def home_page():
-    st.write(f"""# AI based Water Quality Analysis and Forecasting of Vartur Lake Bangalore""", unsafe_allow_html=True)
+    st.write(f"""# Recommendation System""", unsafe_allow_html=True)
     
-    st.write(f"""<h2>Importance of Urban Lakes</h2>   
-    <p>Lakes play a crucial role in urban environments, offering numerous benefits that contribute to the well-being of both the ecosystem and the residents. Here are some key reasons highlighting the importance of lakes in urban areas:</p>
-    <p>1.Recreational Opportunities: Urban lakes provide spaces for recreational activities such as boating, fishing, swimming, and picnicking, offering residents a natural escape from the hustle and bustle of city life. These recreational opportunities contribute to improved mental and physical health among urban dwellers.</p>
-    <p>2.Aesthetic Value: Lakes enhance the aesthetic appeal of urban landscapes, providing scenic views and green spaces that contribute to a sense of tranquility and beauty within the city. Well-maintained lakes and waterfront areas can become focal points for community gatherings, events, and celebrations.</p> 
-    <p>3.Biodiversity and Habitat: Urban lakes support diverse ecosystems and provide habitats for a variety of plant and animal species. They serve as vital breeding grounds for aquatic organisms, birds, and wildlife, contributing to biodiversity conservation and ecological balance within urban environments.</p> 
-    <p>4.Water Supply and Quality: Many urban lakes serve as important sources of drinking water for nearby communities. Protecting and preserving these water bodies is essential for maintaining water quality and ensuring a sustainable supply of clean water for urban residents.</p> 
-    <p>5.Flood Control and Stormwater Management: Lakes play a crucial role in flood control and stormwater management by absorbing excess rainwater, reducing the risk of flooding, and preventing erosion and soil runoff. Well-designed lakes and wetlands can act as natural buffers against extreme weather events, protecting urban areas from water-related disasters.</p> 
-    <p>6.Climate Regulation: Urban lakes help regulate local climate conditions by moderating temperature extremes and reducing the urban heat island effect. The presence of water bodies can lower ambient temperatures, improve air quality, and create microclimates that support vegetation and wildlife.</p> 
-    <p>7.Economic Benefits: Lakes contribute to the local economy by attracting tourists, supporting recreational businesses, and enhancing property values in nearby neighborhoods. Waterfront properties are often highly desirable and command premium prices, leading to increased real estate development and investment in urban lakefront areas.</p> 
-    <p>8.Cultural and Historical Significance: Many urban lakes have cultural and historical significance, serving as important landmarks or symbols of local identity. They may have historical associations, cultural heritage sites, or traditional uses that contribute to the cultural fabric and heritage of the city.</p> 
+    st.write(f""" 
     """, unsafe_allow_html=True)
-
-    st.write(f"""<h2>Research Topic</h2> <p>An AI pipeline for the evaluating environmental water ecosystem using scientific associative study of ground and surface water quality</p> """, unsafe_allow_html=True)
-    st.write(f"""<h2>Research Objective for Surface and Ground Water</h2> 
-	<hr>
-	<div style="text-align:center;">
-	<table>
-	<tr>
-		<th width="2%" style="font-size: 140%;">SNo</th>    
-		<th width="5%" style="font-size: 140%;">Objective</th>
-		<th width="50%" style="font-size: 140%;">Details</th>
-	</tr>
-	<tr>
-		<td>1</td>    
-		<td>Site Survey</td>
-		<td>At chosen site, perform a preliminary site survey to check the choice of water quality parameter to be measured, to check the logistics of how the measurements will be carried out and to ensure that all the needed parameters have been identified.</td>
-  	</tr>
-	<tr>
-		<td>2</td>    
-		<td>Influence of pollution sources</td>
-		<td>Explore the influence of pollution sources on the water quality parameters</td>
-	</tr>
-	<tr>
-		<td>3</td>    
-		<td>Establish link</td>
-		<td>Evaluate whether the Surface Water quality monitoring procedure can be established and linked to any existing programs of government or private agencies like Pollution Control Authorities, Public Health Departments and Universities</td>
-	</tr>
- 	<tr>
-		<td>4</td>    
-		<td>Data collection</td>
-		<td>Performing the secondary water quality data collection for the chosen site and explore each water quality parameter</td>
-	</tr>
-	<tr>
-		<td>5</td>    
-		<td>Statistical analysis</td>
-		<td>To perform various statistical analysis on the collected data such as principal component analysis (PCA), regression analysis, and cluster analysis. To carry out correlation and Regression Analysis between physical and chemical parameters of water quality by Canonical Correlation Analysis (CCA)</td>
-	</tr>
-	<tr>
-		<td>6</td>    
-		<td>WQI</td>
-		<td>To propose and to study water Quality Index so as the complex dataset into a simplified index that is easily understandable by the public.</td>
-	</tr>
-	<tr>
-		<td>7</td>    
-		<td>ML Modelling</td>
-		<td>Explore and study various Machine Learning Models for Predicting the Water Quality Index</td>
-	</tr>
-	<tr>
-		<td>8</td>    
-		<td>Evaluation</td>
-		<td>To compare all the employed models in terms of the predictive ability as well as to carry out the error and correlation analysis of the estimated water quality parameters to obtain the most suitable model.</td>
-	</tr>
-	</table>
-	</div>
-	<hr>
+    
+def dashboard():
+    st.write(f"""# Recommendation System""", unsafe_allow_html=True)
+    
+    st.write(f""" 
     """, unsafe_allow_html=True)
-
-
-
+    
+def results():
+    st.write(f"""# Recommendation System Results""", unsafe_allow_html=True)
+    
+    st.write(f""" 
+    """, unsafe_allow_html=True)
 
 def about_page():
     st.write("""<h1>Recommendation System</h1>""", unsafe_allow_html=True)
