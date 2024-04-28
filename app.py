@@ -19,7 +19,7 @@ from azure.cognitiveservices.vision.computervision import ComputerVisionClient
 from msrest.authentication import CognitiveServicesCredentials
 from PIL import Image
 
-subscription_key = "42ad7b63-bcca-44e5-95de-84620abdcc6c"
+subscription_key = "613104a1a93e4983b9aa943e9bf46b92"
 endpoint = "https://pralhad-computer-vision-ws.cognitiveservices.azure.com/"
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 
