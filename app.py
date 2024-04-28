@@ -41,6 +41,12 @@ features,data = recommendationGenerator.load_data(recommendationGenerator, datap
 users = data['userID'].unique()
 max = users.shape[0] -1
 recomm = None
+
+def file_selector(folder_path='.'):
+    filenames = os.listdir(folder_path)
+    selected_filename = st.selectbox('Select a file', filenames)
+    return os.path.join(folder_path, selected_filename)
+
 def home_page():
     st.write(f"""# Recommendation System""", unsafe_allow_html=True)
 
@@ -48,6 +54,14 @@ def home_page():
     st.write(f"""<p>This project takes the log files of user as initial input and extracts their study patterns based on their online activity. The recommendation 
     generator takes those features as input, tries to find similar users based comparing the study patterns and recommends courses they completed.
     </p>""", unsafe_allow_html=True)
+
+    st.write('Select the User Image ')
+    filename = file_selector()
+    st.write('You selected `%s`' % filename)
+    image = open(filename, "rb")  
+    detect_objects_results = computervision_client.detect_objects_in_stream(image)
+    for object in detect_objects_results.objects:
+        st.write(object.object_property)
     st.write('Provide an index between 0 to ',max,' to choose a USER ID ')
     input_userid = st.number_input(label="", min_value=0, max_value=100, step=1, key="test_slider1")
     n = st.number_input(label="Number of Recommendations", min_value=0, max_value=100, step=1, key="test_slider2")
