@@ -14,6 +14,13 @@ from streamlit_option_menu import option_menu
 import matplotlib.patches as mpatches
 from sklearn.metrics import confusion_matrix
 from generator import recommendationGenerator
+from azure.cognitiveservices.vision.computervision import ComputerVisionClient
+from msrest.authentication import CognitiveServicesCredentials
+from PIL import Image
+
+subscription_key = "42ad7b63-bcca-44e5-95de-84620abdcc6c"
+endpoint = "https://pralhad-computer-vision-ws.cognitiveservices.azure.com/"
+computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 
 st.set_page_config(page_title="Recommendation System", page_icon="🇷🇼", initial_sidebar_state="expanded")
 
