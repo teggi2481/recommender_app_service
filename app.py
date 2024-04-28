@@ -71,6 +71,10 @@ def home_page():
     description_result = computervision_client.describe_image_in_stream(image)
     for caption in description_result.captions:
         st.write(caption.text)
+
+    result = client.analyze(image_data=image,visual_features=[VisualFeatures.CAPTION],gender_neutral_caption=True,  # Optional (default is False))
+    st.write(result.caption.text)
+                            
     st.write('Provide an index between 0 to ',max,' to choose a USER ID ')
     input_userid = st.number_input(label="", min_value=0, max_value=100, step=1, key="test_slider1")
     n = st.number_input(label="Number of Recommendations", min_value=0, max_value=100, step=1, key="test_slider2")
