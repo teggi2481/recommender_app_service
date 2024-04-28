@@ -17,6 +17,9 @@ from sklearn.metrics import confusion_matrix
 from generator import recommendationGenerator
 from azure.cognitiveservices.vision.computervision import ComputerVisionClient
 from msrest.authentication import CognitiveServicesCredentials
+from azure.ai.vision.imageanalysis import ImageAnalysisClient
+from azure.ai.vision.imageanalysis.models import VisualFeatures
+from azure.core.credentials import AzureKeyCredential
 from PIL import Image
 
 subscription_key = "613104a1a93e4983b9aa943e9bf46b92"
