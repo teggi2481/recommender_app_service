@@ -25,7 +25,8 @@ from PIL import Image
 subscription_key = "613104a1a93e4983b9aa943e9bf46b92"
 endpoint = "https://pralhad-computer-vision-ws.cognitiveservices.azure.com/"
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
-
+# Create an Image Analysis client
+client = ImageAnalysisClient(endpoint=endpoint,credential=AzureKeyCredential(key))
 st.set_page_config(page_title="Recommendation System", page_icon="🇷🇼", initial_sidebar_state="expanded")
 
 hide_streamlit_style = """
