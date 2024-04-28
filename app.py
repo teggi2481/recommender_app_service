@@ -73,7 +73,7 @@ def home_page():
         st.write(caption.text)
 
     result = client.analyze(image_data=image,visual_features=[VisualFeatures.CAPTION],gender_neutral_caption=True)
-    st.write(result.caption.text)
+    st.write(result.read.blocks[0].lines)
                             
     st.write('Provide an index between 0 to ',max,' to choose a USER ID ')
     input_userid = st.number_input(label="", min_value=0, max_value=100, step=1, key="test_slider1")
