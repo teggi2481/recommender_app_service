@@ -72,7 +72,7 @@ def home_page():
     for caption in description_result.captions:
         st.write(caption.text)
 
-    result = client.analyze(image_data=image,visual_features=[VisualFeatures.CAPTION],gender_neutral_caption=True)
+    result = client.analyze(image_data=image,visual_features=[VisualFeatures.CAPTION, VisualFeatures.READ])
     st.write(result.read.blocks[0].lines)
                             
     st.write('Provide an index between 0 to ',max,' to choose a USER ID ')
