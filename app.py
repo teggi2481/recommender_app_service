@@ -41,7 +41,8 @@ def home_page():
     st.write(f"""<p>This project takes the log files of user as initial input and extracts their study patterns based on their online activity. The recommendation 
     generator takes those features as input, tries to find similar users based comparing the study patterns and recommends courses they completed.
     </p>""", unsafe_allow_html=True)
-    input_userid = st.number_input(label="Insert an index between 0 to {{max}} to choose a USER ID", min_value=0, max_value=100, step=1, key="test_slider1")
+    st.write('Provide an index between 0 to ',max,' to choose a USER ID ')
+    input_userid = st.number_input(label="", min_value=0, max_value=100, step=1, key="test_slider1")
     n = st.number_input(label="Number of Recommendations", min_value=0, max_value=100, step=1, key="test_slider2")
     
 
