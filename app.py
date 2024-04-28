@@ -26,7 +26,7 @@ subscription_key = "613104a1a93e4983b9aa943e9bf46b92"
 endpoint = "https://pralhad-computer-vision-ws.cognitiveservices.azure.com/"
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 # Create an Image Analysis client
-client = ImageAnalysisClient(endpoint=endpoint,credential=AzureKeyCredential(subscription_key))
+#client = ImageAnalysisClient(endpoint=endpoint,credential=AzureKeyCredential(subscription_key))
 st.set_page_config(page_title="Recommendation System", page_icon="🇷🇼", initial_sidebar_state="expanded")
 
 hide_streamlit_style = """
@@ -68,12 +68,12 @@ def home_page():
     #tags_result = computervision_client.tag_image_in_stream(image)
     #for tag in tags_result.tags:
     #    st.write(tag.name)
-    description_result = computervision_client.describe_image_in_stream(image)
-    for caption in description_result.captions:
-        st.write(caption.text)
+    #description_result = computervision_client.describe_image_in_stream(image)
+    #for caption in description_result.captions:
+    #    st.write(caption.text)
 
-    result = client.analyze(image_data=image,visual_features=[VisualFeatures.CAPTION, VisualFeatures.READ])
-    st.write(result.read.blocks[0].lines)
+    #result = client.analyze(image_data=image,visual_features=[VisualFeatures.CAPTION, VisualFeatures.READ])
+    #st.write(result.read.blocks[0].lines)
                             
     st.write('Provide an index between 0 to ',max,' to choose a USER ID ')
     input_userid = st.number_input(label="", min_value=0, max_value=100, step=1, key="test_slider1")
