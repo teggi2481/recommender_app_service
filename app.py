@@ -61,9 +61,9 @@ def home_page():
     st.write('You selected `%s`' % filename)
     image = open(filename, "rb")  
     #detect_objects_results = computervision_client.detect_objects_in_stream(image)
-    tags_result = computervision_client.tag_image_in_stream(image)
-    for tag in tags_result.tags:
-        st.write(tag.name)
+    #tags_result = computervision_client.tag_image_in_stream(image)
+    #for tag in tags_result.tags:
+    #    st.write(tag.name)
     description_result = computervision_client.describe_image_in_stream(image)
     for caption in description_result.captions:
         st.write(caption.text)
