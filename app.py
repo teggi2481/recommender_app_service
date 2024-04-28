@@ -1,4 +1,5 @@
 import stqdm
+import os
 import pickle
 import pandas as pd
 import matplotlib.pyplot as plt
